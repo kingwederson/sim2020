@@ -6,8 +6,10 @@ body{
 input[type="range"]{
     width:200px;
 }
+div{
+    display: inline-block;
+}
 div.partido{
-    display:inline-block;
     max-width:480px;
     border:1px solid black;
     background-color: blue;
@@ -24,11 +26,8 @@ div.partido:nth-child(4){
     background-color: orangered;
     color:white;
 }
-input.votador[value]{
-    content:30;
-}
 div#resultado th,div#resultado td{
-    font-size:45pt;
+    font-size:20pt;
     padding:0px 40px;
 }
 td{

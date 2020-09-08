@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="estilo.css">
     <script src="calculador.js"></script>
 </head>
-<body onload="ajustador()">
+<body onload="ajustador()" class="grid">
     <h1>Simulador Eleitoral Bom Jardim de Minas</h1>
-    <div class="partido">
+    <div class="partido grid-item">
         <table>
             <tr>
                 <th>Candidato</th>
@@ -88,7 +88,7 @@
             </tr>
         </table>
     </div>
-    <div class="partido">
+    <div class="partido grid-item">
         <table>
             <tr>
                 <th>Candidato</th>
@@ -96,13 +96,13 @@
                 <th>votos</th>
             </tr>
             <tr>
-                <td>BARROSO</td>
-                <td><input id="ranMDB101" type="range" class="votador" onchange="ajustador()" value="433" step="0.5" min="0" max="502"></td>
+                <td>ELIANA NUNES</td>
+                <td><input id="ranMDB103" type="range" class="votador" onchange="ajustador()" value="360" step="0.5" min="0" max="502"></td>
                 <td class="mostrador"></td>
             </tr>
             <tr>
-                <td>ELIANA NUNES</td>
-                <td><input id="ranMDB103" type="range" class="votador" onchange="ajustador()" value="257" step="0.5" min="0" max="502"></td>
+                <td>BARROSO</td>
+                <td><input id="ranMDB101" type="range" class="votador" onchange="ajustador()" value="270" step="0.5" min="0" max="502"></td>
                 <td class="mostrador"></td>
             </tr>
             <tr>
@@ -167,7 +167,7 @@
             </tr>
         </table>
     </div>
-    <div class="partido">
+    <div class="partido grid-item">
         <table>
             <tr>
                 <th>Candidato</th>
@@ -175,13 +175,23 @@
                 <th>votos</th>
             </tr>
             <tr>
-                <td>WEDERSON DE PAULA</td>
-                <td><input id="ranPSD101" type="range" class="votador" onchange="ajustador()" value="136" step="0.5" min="0" max="502"></td>
+                <td>DEMAZÃO</td>
+                <td><input id="ranPSD101" type="range" class="votador" onchange="ajustador()" value="300" step="0.5" min="0" max="502"></td>
                 <td class="mostrador"></td>
             </tr>
             <tr>
-                <td>FILOMENA TEORODO</td>
-                <td><input id="ranPSD102" type="range" class="votador" onchange="ajustador()" value="198" step="0.5" min="0" max="502"></td>
+                <td>WEDERSON DE PAULA</td>
+                <td><input id="ranPSD101" type="range" class="votador" onchange="ajustador()" value="190" step="0.5" min="0" max="502"></td>
+                <td class="mostrador"></td>
+            </tr>
+            <tr>
+                <td>FILOMENA DO LABORATÓRIO</td>
+                <td><input id="ranPSD102" type="range" class="votador" onchange="ajustador()" value="180" step="0.5" min="0" max="502"></td>
+                <td class="mostrador"></td>
+            </tr>
+            <tr>
+                <td>DIOZILENE</td>
+                <td><input id="ranPSD104" type="range" class="votador" onchange="ajustador()" value="70" step="0.5" min="0" max="502"></td>
                 <td class="mostrador"></td>
             </tr>
             <tr>
@@ -190,69 +200,9 @@
                 <td class="mostrador"></td>
             </tr>
             <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>vago</td>
-                <td></td>
-                <td></td>
+                <td>JESUS ALVES</td>
+                <td><input id="ranPSD105" type="range" class="votador" onchange="ajustador()" value="40" step="0.5" min="0" max="502"></td>
+                <td class="mostrador"></td>
             </tr>
         </table>
     </div>
