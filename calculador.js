@@ -17,10 +17,10 @@ function ajustador(){
     var votosDEM = 0
     var votosMDB = 0
     var votosPSD = 0
-    for(var i = 1; i<15;i++){
+    for(var i = 1; i<16;i++){
         votosDEM = votosDEM + votos[i]
     }
-    for(var i = 15; i<30;i++){
+    for(var i = 16; i<31;i++){
         votosMDB = votosMDB + votos[i]
     }
     for(var i = 30; i<candidatos;i++){
