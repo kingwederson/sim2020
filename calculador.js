@@ -11,19 +11,19 @@ function ajustador(){
     }
     var votos = []
     for(var i = 0; i<candidatos;i++){
-        votos.push(parseInt(4616*(Number(pacotes[i])/Number(somapac))))
+        votos.push(parseInt(4610*(Number(pacotes[i])/Number(somapac))))
         window.document.getElementsByClassName('mostrador')[i].innerText = votos[i]
     }
     var votosDEM = 0
     var votosMDB = 0
     var votosPSD = 0
-    for(var i = 1; i<14;i++){
+    for(var i = 1; i<15;i++){
         votosDEM = votosDEM + votos[i]
     }
-    for(var i = 14; i<28;i++){
+    for(var i = 15; i<30;i++){
         votosMDB = votosMDB + votos[i]
     }
-    for(var i = 28; i<candidatos;i++){
+    for(var i = 30; i<candidatos;i++){
         votosPSD = votosPSD + votos[i]
     }
     window.document.getElementById('somadoDEM').innerText = votosDEM
