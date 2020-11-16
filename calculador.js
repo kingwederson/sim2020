@@ -1,4 +1,4 @@
-var candidatos = 33
+var candidatos = 36
 function ajustador(){
     var numcad = 9
     var pacotes = []
@@ -11,7 +11,7 @@ function ajustador(){
     }
     var votos = []
     for(var i = 0; i<candidatos;i++){
-        votos.push(parseInt(4290*(Number(pacotes[i])/Number(somapac))))
+        votos.push(parseInt(4616*(Number(pacotes[i])/Number(somapac))))
         window.document.getElementsByClassName('mostrador')[i].innerText = votos[i]
     }
     var votosDEM = 0
